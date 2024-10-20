@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+}
+
+.head{
+  display: flex;
+  flex-wrap: wrap;
+  background: navy;
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+}
+
+#logo img{
+ width: 200px;
+ height: 50px;
+}
+
+#list{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#list i{
+  font-size: 30px;
+  margin: 25px;
+}
+
+ #list  li{
+  font-size:30px ;
+  margin: 25px;
+  }
+
+
+  #image1{
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+#sub img{
+  width: 100%;
+  height:500px;
+}
+#sub h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: -400px;
+  color: white;
+}
+
+#btn {
+width: 200px;
+height: 50px;
+padding: 10px;
+color: white;
+background: navy;
+border: none;
+font-size: 20px;
+border-radius: 5px;
+
+
+}
+
+#middle{
+  flex-wrap: wrap;
+  margin-top:-7px;
+  width: 100%;
+  height: 500px;
+  background: navy;
+   
+}
+
+h2{
+  color: orange;
+  font-size: 50px;
+  margin: 10px;
+  padding:20px ;
+  }
+
+#para{
+  color: black;
+  width: 700px;
+  height: 200px;
+  background: white;
+  padding: 20px;
+  border-left: 10px solid orange;
+  font-size: 20px;
+  border-top-left-radius: 20px;
+  margin: 10px; 
+}
+
+#sub-middle{
+  margin-top:200px;
+}
+
+#sub-middle img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: right;
+  margin-top:-300px;
+    margin-right: 50px;
+  border: 3px solid black;
+  }
+
+  #sub-middle img:hover{
+    width:190px;
+    height: 190px;
+    }
+    #vission{
+      font-size: 25px;
+      margin: 10px;
+      color: aqua;
+    }
+    #glance{
+      background: black;
+      color: white;
+      border: 3px solid orange;
+      width: 300px;
+      height: 30px;
+      padding:5px ;
+      margin: 10px;
+      }
+
+    #fotos{
+      flex-wrap: wrap;
+      display: flex;
+      align-content: center;
+    }  
+    #sub-foto img{
+      width: 350px;
+      height: 250px;
+      margin: 30px;
+      padding:2px ;
+
+    }
+#rule{
+  color:red;
+  width: 320px;
+  height: 3px;
+
+}
+#marq{
+  background: navy;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  padding:9px ;
+  color: white;
+}
